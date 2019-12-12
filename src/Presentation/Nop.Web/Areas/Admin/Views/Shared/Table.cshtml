@@ -12,6 +12,7 @@
     }
 }
 <table class="table table-bordered table-hover table-striped dataTable" width="100%" id="@Model.Name">
+    <nop-antiforgery-token />
     @if (Model.FooterColumns > 0)
     {
         //You need to add the footer before you create the table
